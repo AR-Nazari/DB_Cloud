@@ -36,9 +36,9 @@ namespace WebApi.Services
         //    using IDbConnection db = new SqlConnection(_config.GetConnectionString(Connectionstring));
         //    return db.Query<Boolean>(sp, parms, commandType: commandType).FirstOrDefault();
         //}
-        public List<T> GetAll<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure)
+        public List<T> GetAll<T>( string Db_Name , string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure)
         {
-            using IDbConnection db = new SqlConnection(_config.GetConnectionString(Connectionstring));
+            using IDbConnection db = new SqlConnection(_config.GetConnectionString(Db_Name));
             return db.Query<T>(sp, parms, commandType: commandType).ToList();
         }
 

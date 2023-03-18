@@ -26,7 +26,7 @@ namespace WebApi.Controllers
         public async Task<IActionResult> Serach_Table([FromBody] Search_Model search)
         {
 
-          // Condition_Model condition = new Condition_Model();
+            // Condition_Model condition = new Condition_Model();
             List<Condition_AND_Model> condition_AND = search.Condition_AND;
             List<Condition_OR_Model> condition_OR = search.Condition_OR;
             List<object> result = new List<object>();
@@ -40,16 +40,16 @@ namespace WebApi.Controllers
             for (int i = 0; i < Count_Of_Condition_AND; i++)
             {
 
-                Condition_AND_str += " AND "+ condition_AND[i].Field_Name + condition_AND[i].OP + condition_AND[i].Field_value +" ";
+                Condition_AND_str += " AND " + condition_AND[i].Field_Name + condition_AND[i].OP + condition_AND[i].Field_value + " ";
             }
-            object[] args = new object[] { search.Top, search.Database, search.Table , Condition_AND_str };//, condition.Field , condition.OP, condition.Field_value};
+            object[] args = new object[] { search.Top, search.Database, search.Table, Condition_AND_str };//, condition.Field , condition.OP, condition.Field_value};
             string Query = String.Format("Select Top {0} * From {1}.dbo.{2}  where 1=1  {3} ", args);
-            
-            
+
+
 
             try
             {
-                result = await Task.FromResult(_dapper.GetAll<object>(Query, new DynamicParameters { }, CommandType.Text));
+                result = await Task.FromResult(_dapper.GetAll<object>(search.Database, Query, new DynamicParameters { }, CommandType.Text));
 
             }
             catch (Exception e)
@@ -64,14 +64,14 @@ namespace WebApi.Controllers
         [Authorize]
         [Route("SP")]
         [HttpPost]
-        public async Task<IActionResult> SP([FromBody] StoreProcedure_Model sp_Model)
+        public async Task<IActionResult> SP(StoreProcedure_Model sp_Model)
         {
-            
-            List<object> result = new List<object>();
-            List<Parameter_Model> param =  sp_Model.parameter_Models;
-            
 
-            int Count_Of_Parameter =param.Count;
+            List<object> result = new List<object>();
+            List<Parameter_Model> param = sp_Model.parameter_Models;
+
+
+            int Count_Of_Parameter = param.Count;
             string Parameters_str = "";
             string Parameter_dataType_prefix = "";
             string Parameter_dataType_postfix = "";
@@ -79,7 +79,7 @@ namespace WebApi.Controllers
             //int count_Param = para
             for (int i = 0; i < Count_Of_Parameter; i++)
             {
-                if (i == Count_Of_Parameter-1)
+                if (i == Count_Of_Parameter - 1)
                     Between_Parameters = "";
                 switch (param[i].Parameter_Datatype)
                 {
@@ -94,28 +94,28 @@ namespace WebApi.Controllers
                 }
 
 
-                Parameters_str += "  @" + param[i].Parameter_Name + " = "+ Parameter_dataType_prefix + param[i].Parameter_Value + Parameter_dataType_postfix+ Between_Parameters;
+                Parameters_str += "  @" + param[i].Parameter_Name + " = " + Parameter_dataType_prefix + param[i].Parameter_Value + Parameter_dataType_postfix + Between_Parameters;
                 // Parameters_str = "@State_Name__Text = N'ه' ";
             }
-            
-            object[] args = new object[] { sp_Model.Database, sp_Model.StoreProcedure_Name , Parameters_str};
+
+            object[] args = new object[] { sp_Model.Database, sp_Model.StoreProcedure_Name, Parameters_str };
             string Query = String.Format("EXEC {0}.[dbo].{1} {2} ", args);
 
 
 
             try
             {
-                result = await Task.FromResult(_dapper.GetAll<object>(Query, new DynamicParameters { }, CommandType.Text));
-               // result.Add(Query);
+                result = await Task.FromResult(_dapper.GetAll<object>(sp_Model.Database, Query, new DynamicParameters { }, CommandType.Text));
+                // result.Add(Query);
             }
             catch (Exception e)
             {
-               
-                 result.Add(e.Message);
+
+                result.Add(e.Message);
             }
 
-           return await Task.FromResult(Ok(result));
-           
+            return await Task.FromResult(Ok(result));
+
         }
     }
 }
