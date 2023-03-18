@@ -1,0 +1,197 @@
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\appsettings.Development.json
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\appsettings.json
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\WebApi.exe
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\WebApi.deps.json
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\WebApi.runtimeconfig.json
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\WebApi.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\WebApi.pdb
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Dapper.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Humanizer.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.OpenApi.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\System.Data.SqlClient.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\runtimes\win-arm64\native\sni.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\runtimes\win-x64\native\sni.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\runtimes\win-x86\native\sni.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.csproj.AssemblyReference.cache
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.AssemblyInfoInputs.cache
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.AssemblyInfo.cs
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.csproj.CoreCompileInputs.cache
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\staticwebassets.build.json
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\staticwebassets.development.json
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\scopedcss\bundle\WebApi.styles.css
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.csproj.CopyComplete
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\refint\WebApi.dll
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.pdb
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.genruntimeconfig.cache
+E:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\ref\WebApi.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\appsettings.Development.json
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\appsettings.json
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\WebApi.exe
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\WebApi.deps.json
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\WebApi.runtimeconfig.json
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\WebApi.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\WebApi.pdb
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Dapper.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Humanizer.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Microsoft.OpenApi.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\System.Data.SqlClient.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\runtimes\win-arm64\native\sni.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\runtimes\win-x64\native\sni.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\runtimes\win-x86\native\sni.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\bin\Release\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.csproj.AssemblyReference.cache
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.AssemblyInfoInputs.cache
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.AssemblyInfo.cs
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.csproj.CoreCompileInputs.cache
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\staticwebassets.build.json
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\staticwebassets.development.json
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\scopedcss\bundle\WebApi.styles.css
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.csproj.CopyComplete
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\refint\WebApi.dll
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.pdb
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\WebApi.genruntimeconfig.cache
+F:\Source_API\sample project\sample web api\WebApi\WebApi\obj\Release\net6.0\ref\WebApi.dll
+F:\Flights\WebApi\bin\Release\net6.0\appsettings.Development.json
+F:\Flights\WebApi\bin\Release\net6.0\appsettings.json
+F:\Flights\WebApi\bin\Release\net6.0\WebApi.exe
+F:\Flights\WebApi\bin\Release\net6.0\WebApi.deps.json
+F:\Flights\WebApi\bin\Release\net6.0\WebApi.runtimeconfig.json
+F:\Flights\WebApi\bin\Release\net6.0\WebApi.dll
+F:\Flights\WebApi\bin\Release\net6.0\WebApi.pdb
+F:\Flights\WebApi\bin\Release\net6.0\Dapper.dll
+F:\Flights\WebApi\bin\Release\net6.0\Humanizer.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.OpenApi.dll
+F:\Flights\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Flights\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Flights\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Flights\WebApi\bin\Release\net6.0\System.Data.SqlClient.dll
+F:\Flights\WebApi\bin\Release\net6.0\runtimes\win-arm64\native\sni.dll
+F:\Flights\WebApi\bin\Release\net6.0\runtimes\win-x64\native\sni.dll
+F:\Flights\WebApi\bin\Release\net6.0\runtimes\win-x86\native\sni.dll
+F:\Flights\WebApi\bin\Release\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Flights\WebApi\bin\Release\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.csproj.AssemblyReference.cache
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.AssemblyInfoInputs.cache
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.AssemblyInfo.cs
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.csproj.CoreCompileInputs.cache
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+F:\Flights\WebApi\obj\Release\net6.0\staticwebassets.build.json
+F:\Flights\WebApi\obj\Release\net6.0\staticwebassets.development.json
+F:\Flights\WebApi\obj\Release\net6.0\scopedcss\bundle\WebApi.styles.css
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.csproj.CopyComplete
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.dll
+F:\Flights\WebApi\obj\Release\net6.0\refint\WebApi.dll
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.pdb
+F:\Flights\WebApi\obj\Release\net6.0\WebApi.genruntimeconfig.cache
+F:\Flights\WebApi\obj\Release\net6.0\ref\WebApi.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\Flights\WebApi\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\appsettings.Development.json
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\appsettings.json
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\WebApi.exe
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\WebApi.deps.json
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\WebApi.runtimeconfig.json
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\WebApi.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\WebApi.pdb
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Dapper.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Humanizer.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Microsoft.OpenApi.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\System.Data.SqlClient.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\bin\Release\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.AssemblyInfo.cs
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\staticwebassets\msbuild.build.WebApi.props
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\scopedcss\bundle\WebApi.styles.css
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.csproj.CopyComplete
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\refint\WebApi.dll
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.pdb
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\WebApi.genruntimeconfig.cache
+C:\Users\user1\Desktop\sample project\Flights\WebApi\obj\Release\net6.0\ref\WebApi.dll
