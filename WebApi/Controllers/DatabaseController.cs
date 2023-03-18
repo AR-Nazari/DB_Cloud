@@ -71,7 +71,7 @@ namespace WebApi.Controllers
             List<Parameter_Model> param = sp_Model.parameter_Models;
 
             
-            int Count_Of_Parameter = param.Count;
+            int Count_Of_Parameter = param != null ? param.Count : 0;
             string Parameters_str = "";
             string Parameter_dataType_prefix = "";
             string Parameter_dataType_postfix = "";
