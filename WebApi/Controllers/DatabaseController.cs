@@ -6,6 +6,7 @@ using Dapper;
 using WebApi.Services;
 using System.Data;
 using Microsoft.AspNetCore.Authorization;
+using WebApi.Models.Enum;
 
 namespace WebApi.Controllers
 {
@@ -20,45 +21,7 @@ namespace WebApi.Controllers
             _dapper = dapper;
         }
 
-        [Authorize]
-        [Route("SearchTable")]
-        [HttpPost]
-        public async Task<IActionResult> Serach_Table([FromBody] Search_Model search)
-        {
-
-            // Condition_Model condition = new Condition_Model();
-            List<Condition_AND_Model> condition_AND = search.Condition_AND;
-            List<Condition_OR_Model> condition_OR = search.Condition_OR;
-            List<object> result = new List<object>();
-
-            int Count_Of_Condition_AND = condition_AND.Count;
-            string Condition_AND_str = "";
-
-            int Count_Of_Condition_OR = condition_OR.Count;
-            string Condition_OR_str = "";
-
-            for (int i = 0; i < Count_Of_Condition_AND; i++)
-            {
-
-                Condition_AND_str += " AND " + condition_AND[i].Field_Name + condition_AND[i].OP + condition_AND[i].Field_value + " ";
-            }
-            object[] args = new object[] { search.Top, search.Database, search.Table, Condition_AND_str };//, condition.Field , condition.OP, condition.Field_value};
-            string Query = String.Format("Select Top {0} * From {1}.dbo.{2}  where 1=1  {3} ", args);
-
-
-
-            try
-            {
-                result = await Task.FromResult(_dapper.GetAll<object>(search.Database, Query, new DynamicParameters { }, CommandType.Text));
-
-            }
-            catch (Exception e)
-            {
-                result.Add(e.Message);
-            }
-
-            return await Task.FromResult(Ok(result));
-        }
+      
 
 
         [Authorize]
@@ -66,8 +29,9 @@ namespace WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> SP(StoreProcedure_Model sp_Model)
         {
-
-            List<object> result = new List<object>();
+            
+            object result = new();
+            //int Res_EXEC = 0;
             List<Parameter_Model> param = sp_Model.parameter_Models;
 
             
@@ -100,21 +64,54 @@ namespace WebApi.Controllers
 
             object[] args = new object[] { sp_Model.Database, sp_Model.StoreProcedure_Name, Parameters_str };
             string Query = String.Format("EXEC {0}.[dbo].{1} {2} ", args);
-
-
-
-            try
+           
+            //{ sp_Model.Response_Type= Response_Type.Row}
+            switch (sp_Model.Response_Type)
             {
-                result = await Task.FromResult(_dapper.GetAll<object>(sp_Model.Database, Query, new DynamicParameters { }, CommandType.Text));
-                // result.Add(Query);
-            }
-            catch (Exception e)
-            {
+                case Response_Type.Exec:
+                    //Exec
+                    try
+                    {
+                       // result = await Task.FromResult(_dapper.EXEC(sp_Model.Database, Query, new DynamicParameters { }, CommandType.Text));
+                         _dapper.EXEC(sp_Model.Database, Query, new DynamicParameters { }, CommandType.Text);
+                       
+                        // result.Add(Query);
+                    }
+                    catch (Exception e)
+                    {
 
-                result.Add(e.Message);
+                        result =e.Message;
+                    }
+                    break;
+                case Response_Type.Scalar:
+                    //Scalar
+                    try
+                    {
+                        result = await Task.FromResult(_dapper.EXECSCALAR(sp_Model.Database, Query, new DynamicParameters { }, CommandType.Text));
+                        // result.Add(Query);
+                    }
+                    catch (Exception e)
+                    {
+
+                        result = e.Message;
+                    }
+                    break;
+                case Response_Type.Row:
+                    //Row
+                    try
+                    {
+                        result = await Task.FromResult(_dapper.GetAll<object>(sp_Model.Database, Query, new DynamicParameters { }, CommandType.Text));
+                        // result.Add(Query);
+                    }
+                    catch (Exception e)
+                    {
+
+                        result=e.Message;
+                    }
+                    break;
             }
 
-            return await Task.FromResult(Ok(result));
+            return Ok(result);
 
         }
     }

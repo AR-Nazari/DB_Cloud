@@ -9,7 +9,7 @@ namespace WebApi.Services
     public class DapperClass: IDapper
     {
         private readonly IConfiguration _config;
-        private string Connectionstring = "ECommerce_Con";
+        private string Connectionstring = "ECommerce";
 
         public DapperClass(IConfiguration config)
         {
@@ -26,6 +26,18 @@ namespace WebApi.Services
             return db.Execute(sp, parms);
         }
 
+        public object EXEC(string Db_Name, string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure)
+        {
+            using IDbConnection db = new SqlConnection(_config.GetConnectionString(Connectionstring));
+            return db.Execute(sp, parms,commandType:commandType);
+           
+        }
+        public object EXECSCALAR(string Db_Name, string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure)
+        {
+            using IDbConnection db = new SqlConnection(_config.GetConnectionString(Connectionstring));
+            return db.ExecuteScalar(sp, parms, commandType: commandType);
+
+        }
         public T Get<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.Text)
         {
             using IDbConnection db = new SqlConnection(_config.GetConnectionString(Connectionstring));

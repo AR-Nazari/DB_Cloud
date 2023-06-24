@@ -14,6 +14,7 @@ namespace WebApi.Models
         [Range(1, 1000)]
         [Required]
         public int Top { get; set; } = 1000;
+        
         public List<Condition_AND_Model>? Condition_AND { get; set; }
         public List<Condition_OR_Model>? Condition_OR { get; set; }
       
