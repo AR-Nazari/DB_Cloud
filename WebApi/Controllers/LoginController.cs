@@ -13,6 +13,7 @@ namespace WebApi.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
+        
         private readonly IConfiguration _config;
         public LoginController(IConfiguration config)
         {
@@ -27,11 +28,14 @@ namespace WebApi.Controllers
             if (user != null)
             {
                 var token = GenerateToken(user);
+               // token = List<token>;
                 return Ok(token);
             }
 
             return NotFound("user not found");
         }
+
+        
 
         // To generate token
         private string GenerateToken(Users user)

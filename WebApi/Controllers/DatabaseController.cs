@@ -70,17 +70,18 @@ namespace WebApi.Controllers
             {
                 case Response_Type.Exec:
                     //Exec
+                    result = true;
                     try
                     {
                        // result = await Task.FromResult(_dapper.EXEC(sp_Model.Database, Query, new DynamicParameters { }, CommandType.Text));
-                         _dapper.EXEC(sp_Model.Database, Query, new DynamicParameters { }, CommandType.Text);
+                          await Task.FromResult(_dapper.EXEC(sp_Model.Database, Query, new DynamicParameters { }, CommandType.Text));
                        
                         // result.Add(Query);
                     }
                     catch (Exception e)
                     {
 
-                        result =e.Message;
+                        result = false;
                     }
                     break;
                 case Response_Type.Scalar:
