@@ -27,9 +27,11 @@ namespace WebApi.Controllers
             var user = Authenticate(userLogin);
             if (user != null)
             {
-                var token = GenerateToken(user);
+              //  var token = GenerateToken(user);
                // token = List<token>;
-                return Ok(token);
+               TokenRes tokenres = new TokenRes();
+                tokenres.Token = GenerateToken(user);
+                return Ok(tokenres);
             }
 
             return NotFound("user not found");
